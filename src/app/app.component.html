@@ -1,10 +1,12 @@
-<div class="row cointainer mt-4">
+<div class="container mt-4">
+  <div class="row">
+      <div class="col-md-3 col-xs-12 mb-4">
+          <app-sidebar></app-sidebar>
+      </div>
 
-    <div class="col-3">
-        <app-sidebar></app-sidebar>
-    </div>
-
-    <div class="col">
-        <router-outlet></router-outlet>
-    </div>
+      <div class="col">
+          <router-outlet></router-outlet>
+      </div>
+  </div>
 </div>
+
